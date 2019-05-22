@@ -64,7 +64,7 @@ let nombre = agerestant * consommation
 
 alert("Il vous reste "+nombre+" de "+denrée+" avant d'atteindre l'age de "+agemax+ " ans.")
 ```
-
+______
 ## Logique
 
 Exercice : Langues
@@ -73,7 +73,7 @@ Exercice : Langues
 * Crée une autre variable qui servira à stocker un message
 * Crée une condition pour savoir quelle sera la valeur du message si elle est "fr","es","en".
 
-afficher "Bonjour tout le monde", "Hello world" et "Hola, Mundo" selon la bonne langue
+Afficher "Bonjour tout le monde", "Hello world" et "Hola, Mundo" selon la bonne langue
 
 ```
 let lg = prompt("Quel est votre langue? FR, ES ou EN?")
@@ -134,4 +134,54 @@ if (nombre == 1) {
 } else {
     alert("Je possède " + nombre + " " + mot + "s");
 }
+```
+
+______
+## Fonctions
+
+### Exercice : Calculs
+
+Déclarez les variables suivantes :
+
+* Fonction qui fait des soustractions
+* Fonction qui fait des division
+* Fonction qui fait des multiplications
+* Fonction qui fait des calcule de pourcentages ( 2 arguments: valeur et pourcentage ) par exemple : "50% de 10 = 5";
+* Faire un fonction qui fait des calcules de vitesse (2 arguments : distance, temps en heure)
+
+Le résultat doit être par exemple : '50km/h'
+```
+let soustra = function (a, b) {
+    return a - b;
+}
+
+let division = function (a, b) {
+    return a / b;
+}
+
+let multi = function (a, b) {
+    return a * b;
+}
+/*
+var result = multi(10, 2); 
+alert(result) 
+*/
+
+let pourc = function (valeur, pourcentage) {
+    return (pourcentage / 100 ) * valeur ; 
+}
+
+/*
+let result = pourc(10, 50); 
+alert(result) 
+*/
+
+let vitesse = function (distance, temps) {
+    return distance / temps ;
+}
+
+/*
+let result = vitesse(100, 2);
+alert(result + " km/h")
+*/
 ```

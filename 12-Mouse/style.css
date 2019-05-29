@@ -1,0 +1,35 @@
+.container{
+    padding-top: 20px;
+}
+body{
+    position: fixed;
+    width: 100%;
+    height:100%;
+}
+.hoverMe{
+    display: block;
+    background-color: black;
+    color: white;
+    height: auto;
+    padding: 6px;
+}
+
+.moitie{
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.moitie p {
+    padding: 5px;
+}
+
+#style div p{
+    background-color: brown;
+    margin-top: 20px;
+    padding: 6px;
+    height: 30px;
+}
